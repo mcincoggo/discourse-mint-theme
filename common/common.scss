@@ -77,6 +77,8 @@ input[type="color"]:focus,
             border-radius: var(--mint-border-radius);
             text-transform: uppercase;
             border: 1px solid var(--tertiary);
+            margin: 0.75em;
+            margin-bottom: 1em;
             &:hover {
                 color: var(--secondary);
                 background: var(--tertiary-hover);
