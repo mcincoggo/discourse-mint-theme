@@ -242,7 +242,7 @@ a {
     &.active {
         border-radius: var(--mint-border-radius);
         transition: all 0.3s linear;
-        background: var(--mint-color-mint);
+        background: white;
         color: var(--secondary);
         border: 1px solid var(--mint-color-mint);
     }
@@ -357,7 +357,7 @@ a:hover {
         color: var(--secondary);
     }
     .btn-primary {
-        border-radius: var(--mint-border-radius);
+        border-radius: white;
     }
 }
 
