@@ -4,8 +4,8 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
     box-shadow: 0 8px 60px 0 rgba(103, 151, 255, 0.1), 0 12px 90px 0 rgba(133, 255, 103, 0.1);
     padding: 2em;
     @include mint-card-bg;
-    // border: 3px solid #60a5fa;
-    // box-shadow: 0 0 10px 5px #60a5fa;
+    border: 3px solid #60a5fa;
+    box-shadow: 0 0 10px 5px #60a5fa;
     margin-top: 0.8em;
 }
 
