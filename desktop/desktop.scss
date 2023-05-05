@@ -5,7 +5,7 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
     padding: 2em;
     @include mint-card-bg;
     border: 3px solid #60a5fa;
-    box-shadow: 0 0 5px 3px #60a5fa;
+    box-shadow: 0 0 10px 5px #60a5fa;
     margin-top: 0.8em;
 }
 
