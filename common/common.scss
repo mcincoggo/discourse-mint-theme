@@ -391,11 +391,19 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
     }
 }
 
+.search-container .search-header {
+    background: none;
+}
+
 .search-container .search-bar {
     background: none;
 }
 
 .search-container .search-filters {
+    background: none;
+}
+
+.search-container .search-filters .search-advanced-filters {
     background: none;
 }
 
