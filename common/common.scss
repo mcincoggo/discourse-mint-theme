@@ -381,13 +381,22 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
 }
 
 .search-container .search-advanced-sidebar {
+    background: none;
     .search-advanced-title {
-        background: var(--tertiary);
+        background: none;
         color: var(--secondary);
     }
     .search-advanced-filters {
         border: 1px dashed var(--tertiary);
     }
+}
+
+.search-container .search-bar {
+    background: none;
+}
+
+.search-container .search-filters {
+    background: none;
 }
 
 .search-link:hover {
