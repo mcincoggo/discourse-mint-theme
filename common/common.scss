@@ -48,6 +48,19 @@ input[type="color"]:focus,
     box-shadow: none;
 }
 
+.d-header #site-logo {
+    height: 5em;
+    box-shadow: none;
+    &:hover {
+        transition-property: opacity;
+        transition-duration: 300ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        height: 1rem;
+        cursor: pointer;
+        width: 72.31px;
+    }
+}
+
 .alert.alert-info {
     border-radius: 10px;
 }
