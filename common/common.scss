@@ -65,6 +65,10 @@ input[type="color"]:focus,
     border-radius: 10px;
 }
 
+.topic-list .views {
+    display: none;
+}
+
 .custom-homepage-columns {
     margin: 2em 0 2em 0;
     .col {
